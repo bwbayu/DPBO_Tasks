@@ -1,3 +1,9 @@
 [submodule "LATIHAN1DPBO2023"]
 	path = LATIHAN1DPBO2023
 	url = https://github.com/bwbayu/LATIHAN1DPBO2023
+[submodule "LATIHAN2DPBO2023"]
+	path = LATIHAN2DPBO2023
+	url = https://github.com/bwbayu/LATIHAN2DPBO2023
+[submodule "LATIHAN4DPBO2023"]
+	path = LATIHAN4DPBO2023
+	url = https://github.com/bwbayu/LATIHAN4DPBO2023
