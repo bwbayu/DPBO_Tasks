@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+    <style>
+        /* Gaya Umum */
+        body {
+            background-color: #333;
+            color: #fff;
+        }
+
+        .container {
+            max-width: 500px;
+            margin: 0 auto;
+        }
+
+        .card {
+            background-color: #222;
+            border: none;
+            border-radius: 5px;
+            padding: 20px;
+        }
+
+        .card-header {
+            background-color: #555;
+            padding: 10px;
+            border-radius: 5px 5px 0 0;
+        }
+
+        .card-footer {
+            background-color: #555;
+            padding: 10px;
+            border-radius: 0 0 5px 5px;
+            text-align: right;
+        }
+
+        h1 {
+            font-size: 24px;
+            margin: 0;
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        input[type="text"],
+        input[type="date"],
+        input[type="email"],
+        input[type="tel"] {
+            width: 100%;
+            padding: 8px;
+            border-radius: 5px;
+            border: 1px solid #888;
+            background-color: #333;
+            color: #fff;
+        }
+
+        button {
+            padding: 8px 16px;
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .btn-success {
+            background-color: #4CAF50;
+            color: #fff;
+        }
+
+        .btn-danger {
+            background-color: #f44336;
+            color: #fff;
+        }
+
+        /* Gaya Tema Peperangan */
+        body {
+            font-family: Arial, sans-serif;
+        }
+
+        .container {
+            border: 1px solid #555;
+        }
+
+        .card {
+            border: 1px solid #555;
+            box-shadow: 0 0 10px #555;
+        }
+
+        .card-header {
+            background-color: #900;
+        }
+
+        .card-footer {
+            background-color: #900;
+        }
+
+        label {
+            color: #fff;
+        }
+
+        input[type="text"],
+        input[type="date"],
+        input[type="email"],
+        input[type="tel"] {
+            background-color: #333;
+            border-color: #900;
+        }
+
+        button {
+            font-weight: bold;
+        }
+
+        .btn-success {
+            background-color: #4CAF50;
+            border-color: #4CAF50;
+        }
+
+        .btn-danger {
+            background-color: #f44336;
+            border-color: #f44336;
+        }
+
+        .card-header {
+            background-color: #000;
+        }
+
+        .card-footer {
+            background-color: #333;
+        }
+
+        .card {
+            border: 2px solid #fff;
+            position: relative;
+            animation: glow 2s infinite alternate;
+        }
+
+        /* Tampilan select */
+        select[name="gender"] {
+            background-color: #333;
+            border-color: #900;
+            color: white;
+        }
+
+        /* Tampilan option */
+        select[name="gender"] option {
+            background-color: #333;
+            color: white;
+        }
+
+        /* Tampilan dropdown arrow */
+        select[name="gender"]::after {
+            border-color: white transparent transparent transparent;
+        }
+
+        /* Tampilan dropdown arrow (Firefox) */
+        select[name="gender"]::-moz-selection {
+            background: transparent;
+        }
+
+        /* Tampilan dropdown arrow (Chrome/Safari/Opera) */
+        select[name="gender"]::-webkit-selection {
+            background: transparent;
+        }
+
+        h3.text-center {
+            font-family: 'Arial', sans-serif;
+            font-size: 24px;
+            color: #33ff00;
+            text-align: center;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            text-shadow: 0 0 10px #33ff00, 0 0 20px #33ff00, 0 0 30px #33ff00;
+        }
+    </style>
+    <title>DATA_TITLE</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.php">WIW</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </nav>
+
+    <br />
+    <br />
+
+    <div style="margin-left: 5%">
+        <br>
+        <h3 class="text-center">DATA_JENIS DATA_TITLE</h3>
+        DATA_FORM
+        <br>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+        </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+        </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+        </script>
+</body>
+
+</html>
